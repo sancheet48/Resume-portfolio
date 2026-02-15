@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 // Changed Download to Linkedin
 import { ArrowDown, Linkedin } from 'lucide-react'
-import { useIn_View } from 'react-intersection-observer'
+import { useInView } from 'react-intersection-observer'
 
 export default function Hero() {
   const { ref, inView } = useInView({
