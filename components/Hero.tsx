@@ -1,8 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowDown, Download } from 'lucide-react'
-import { useInView } from 'react-intersection-observer'
+// Changed Download to Linkedin
+import { ArrowDown, Linkedin } from 'lucide-react'
+import { useIn_View } from 'react-intersection-observer'
 
 export default function Hero() {
   const { ref, inView } = useInView({
@@ -87,16 +88,17 @@ export default function Hero() {
             View My Work
           </motion.a>
           
+          {/* Updated LinkedIn Button */}
           <motion.a
-            href="/resume.pdf"
+            href="https://www.linkedin.com/in/sancheetkumarbaidya/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-400 hover:text-white transition-all duration-300"
           >
-            <Download size={20} />
-            Download Resume
+            <Linkedin size={20} />
+            View LinkedIn
           </motion.a>
         </motion.div>
 

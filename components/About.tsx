@@ -113,18 +113,13 @@ export default function About() {
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h4 className="font-semibold text-blue-400">Master of Technology - Big Data Analytics</h4>
-                  <p className="text-gray-300">Vellore Institute of Technology (2022-2024)</p>
+                  <p className="text-gray-300">Vellore Institute of Technology (2024)</p>
                   <p className="text-green-400 font-semibold">CGPA: 9.31</p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4">
                   <h4 className="font-semibold text-purple-400">Diploma - AI & Machine Learning</h4>
-                  <p className="text-gray-300">University of Hyderabad (2021-2022)</p>
+                  <p className="text-gray-300">University of Hyderabad (2022)</p>
                   <p className="text-green-400 font-semibold">CGPA: 7.1</p>
-                </div>
-                <div className="border-l-4 border-cyan-500 pl-4">
-                  <h4 className="font-semibold text-cyan-400">Bachelor of Technology - Electrical Engineering</h4>
-                  <p className="text-gray-300">Techno India (2016-2020)</p>
-                  <p className="text-green-400 font-semibold">CGPA: 7.79</p>
                 </div>
               </div>
             </div>
