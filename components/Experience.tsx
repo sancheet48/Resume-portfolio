@@ -8,7 +8,7 @@ const experiences = [
   {
     company: "Synopsys",
     position: "Senior Research and Development Engineer",
-    location: "Noida",
+    location: "Bengaluru",
     period: "January 2025 – Present",
     achievements: [
       "Full stack RTL Assistant Integration: Engineered and integrated backend, frontend, and AI workflows for the RTL Assistant, a generative RTL-based chatbot, ensuring robust and scalable functionality",
