@@ -31,7 +31,7 @@ const experiences = [
   },
   {
     company: "Intel Corporation",
-    position: "Intern",
+    position: "Software Engineer",
     location: "Bengaluru",
     period: "August 2023 – August 2024",
     achievements: [
